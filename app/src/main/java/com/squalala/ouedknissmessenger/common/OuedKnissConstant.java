@@ -3,7 +3,6 @@ package com.squalala.ouedknissmessenger.common;
 public class OuedKnissConstant {
 	
 	public static final String COOKIE_NAME = "PHPSESSID";
-	public static final String ID_USER_NAME = "m_id";
 
 	public static final int TIME_OUT = 60000;
 	
@@ -28,7 +27,7 @@ public class OuedKnissConstant {
 	public static final String TAG_MESSAGE = "texte";
 	public static final String TAG_ID_MEMBRE = "membre";
 	
-	public static final int TIME_FETCH_MESSAGE = 1000 * 5;
+	public static final int TIME_FETCH_MESSAGE = 1000 * 60;
 	public final static int TIME_VIBRATE = 700;
 	public final static String BOOT_COMPLETE = "ouedkniss.android.intent.action.BOOT_COMPLETED";
 
